@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('Abstract-Plain-White-Wallpaper-.image.jpg'); 
+    background-image: url('bgimage.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
