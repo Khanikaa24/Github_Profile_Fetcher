@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('Abstract-Plain-White-Wallpaper-.image.jpg'); /* Replace 'your-background-image-url.jpg' with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Example: Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 12px;
+    width: 70%;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #997a8d;
+}
+
+button {
+    background-color: #997a8d;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #997a8d;
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 80%;
+    transition: transform 0.3s ease;
+}
+
+.profile:hover {
+    transform: translateY(-5px);
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-info p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.repositories {
+    margin-top: 20px;
+}
+
+.repository {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.repository:hover {
+    transform: translateY(-5px);
+}
+
+.repository h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.repository h3 a {
+    color: #997a8d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.repository h3 a:hover {
+    color: #997a8d;
+}
